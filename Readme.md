@@ -5,23 +5,23 @@ Je maakt een 4 applicaties (UDP Client, UDP Server, TCP Client en TCP Server) di
 
 ##### Welke onderdelen zijn behaald van de UDP Client ?
  
- - [ ] Werkende Client applicatie die aantal te sturen packetten via UDP stuurt (bewijs Packet Sender) [2/15]
+ - [X] Werkende Client applicatie die aantal te sturen packetten via UDP stuurt (bewijs Packet Sender) [2/15]
  
 ##### Welke onderdelen zijn behaald van de UDP Server ?
  
- - [ ] Werkende Server applicatie die gegevens via UDP ontvangt (bewijs Packet Sender) [2/15]
+ - [X] Werkende Server applicatie die gegevens via UDP ontvangt (bewijs Packet Sender) [2/15]
  
- - [ ] CSV van ontvangen stream wordt aangemaakt [1/15]
+ - [X] CSV van ontvangen stream wordt aangemaakt [1/15]
  
- - [ ] Het aantal pakketten dat ontvangen is wordt bijgehouden [1/15]
+ - [X] Het aantal pakketten dat ontvangen is wordt bijgehouden [1/15]
  
- - [ ] Er is een aantal te ontvangen pakketten in te stellen [1/15]
+ - [X] Er is een aantal te ontvangen pakketten in te stellen [1/15]
  
- - [ ] Het tijdsverschil tussen eerste en laatste pakket wordt getoond [1/15]
+ - [X] Het tijdsverschil tussen eerste en laatste pakket wordt getoond [1/15]
  
- - [ ] *Er is een time-out in te stellen [2/15]
+ - [X] *Er is een time-out in te stellen [2/15]
  
- - [ ] *Bij time-out het aantal effectief ontvangen t.o.v. verwacht aantal wordt getoond met berekening van packetloss [2/15]
+ - [?] *Bij time-out het aantal effectief ontvangen t.o.v. verwacht aantal wordt getoond met berekening van packetloss [2/15]
  
  - [ ] *De gegevens worden op de server geparsed en een min, max en avg worden bijgehouden [2/15]
  
