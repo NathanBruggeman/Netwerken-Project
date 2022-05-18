@@ -41,13 +41,13 @@ Je maakt een 4 applicaties (UDP Client, UDP Server, TCP Client en TCP Server) di
  
  ##### Welke onderdelen zijn behaald van de TCP Server ?
  
- - [ ] Server kan luisteren naar een poort voor inkomende TCP connecties [1/25]
+ - [X] Server kan luisteren naar een poort voor inkomende TCP connecties [1/25]
  
- - [ ]  Server accepteert verbinding en praat met verbonden client over TCP [1/25]
+ - [X]  Server accepteert verbinding en praat met verbonden client over TCP [1/25]
  
- - [ ]  Server applicatie stuurt ontvangen bericht door naar alle andere deelnemers [1/25]
+ - [X]  Server applicatie stuurt ontvangen bericht door naar alle andere deelnemers [1/25]
  
- - [ ]  Server stuurt niet naar de afzender zijn eigen bericht [1/25]
+ - [X]  Server stuurt niet naar de afzender zijn eigen bericht [1/25]
  
  - [ ]  Server stuurt de afzender informatie mee met het bericht (i.e. IP-adres + poort van zender) [2/25]
  
@@ -59,5 +59,5 @@ Je maakt een 4 applicaties (UDP Client, UDP Server, TCP Client en TCP Server) di
  
  - [ ]  *Server vraagt de laatste 16 chatberichten via HTTP aan de webserver (bij start) [2/25]
  
- - [ ] *Er kunnen meerdere Clients simultaan verbonden zijn en chatten met elkaar (i.e. assynchroon of synchroon verwerkt op de server) [4/25]
+ - [X] *Er kunnen meerdere Clients simultaan verbonden zijn en chatten met elkaar (i.e. assynchroon of synchroon verwerkt op de server) [4/25]
  
