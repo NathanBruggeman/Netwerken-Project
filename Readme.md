@@ -35,7 +35,7 @@ Je maakt een 4 applicaties (UDP Client, UDP Server, TCP Client en TCP Server) di
  
  - [*] Client kan TCP packetten succesvol sturen en ontvangen (bewijs via WireShark) [1/25]
  
- - [*] Client stuurt de door de gebruiker ingegeven berichten door (bewijs Packet Sender) [1/25]
+ - [X] Client stuurt de door de gebruiker ingegeven berichten door (bewijs Packet Sender) [1/25]
  
  - [ ] *Er kan tegelijk berichten gestuurd en ontvangen worden op de Client zonder afgesproken beurtrol (e.g. multi-threaded) [4/25]
  
