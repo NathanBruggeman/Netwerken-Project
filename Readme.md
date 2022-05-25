@@ -49,15 +49,15 @@ Je maakt een 4 applicaties (UDP Client, UDP Server, TCP Client en TCP Server) di
  
  - [X]  Server stuurt niet naar de afzender zijn eigen bericht [1/25]
  
- - [ ]  Server stuurt de afzender informatie mee met het bericht (i.e. IP-adres + poort van zender) [2/25]
+ - [X]  Server stuurt de afzender informatie mee met het bericht (i.e. IP-adres + poort van zender) [2/25]
  
- - [ ]  Server stuurt de laatste 16 chatberichten naar de client bij nieuwe verbinding [2/25]
+ - [X]  Server stuurt de laatste 16 chatberichten naar de client bij nieuwe verbinding [2/25]
  
- - [ ]  Server kan HTTP communicatie uitvoeren met de webserver (bewijs via WireShark) [2/25]
+ - [*]  Server kan HTTP communicatie uitvoeren met de webserver (bewijs via WireShark) [2/25]
  
- - [ ] *Server stuurt over HTTP de chatberichten door naar de webserver (bewijs via WireShark) [2/25]
+ - [*] *Server stuurt over HTTP de chatberichten door naar de webserver (bewijs via WireShark) [2/25]
  
- - [ ]  *Server vraagt de laatste 16 chatberichten via HTTP aan de webserver (bij start) [2/25]
+ - [X]  *Server vraagt de laatste 16 chatberichten via HTTP aan de webserver (bij start) [2/25]
  
  - [X] *Er kunnen meerdere Clients simultaan verbonden zijn en chatten met elkaar (i.e. assynchroon of synchroon verwerkt op de server) [4/25]
  
