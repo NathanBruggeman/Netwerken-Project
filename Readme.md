@@ -25,7 +25,7 @@ Je maakt een 4 applicaties (UDP Client, UDP Server, TCP Client en TCP Server) di
  
  - [ ] *De gegevens worden op de server geparsed en een min, max en avg worden bijgehouden [2/15]
  
- - [ ] *Statistische gegevens worden in een bestand bewaard [1/15]
+ - [X] *Statistische gegevens worden in een bestand bewaard [1/15]
  
 #### TCP Chatbox met geschiedenis via HTTP (25%)
 
