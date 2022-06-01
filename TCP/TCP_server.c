@@ -40,6 +40,7 @@
 char tekst[256];
 int aantalbytes;
 char laatste16berichten[1000];
+char laatste16berichten1[1000];
 
 void run( int );
 int setup();
@@ -132,8 +133,9 @@ int main(void){
 				{
           addrlen = sizeof remoteaddr;
           newfd = accept(listener,(struct sockaddr *)&remoteaddr,&addrlen);
-
+				//	printf("\n\n\n\n%s\n\n\n",laatste16berichten );
 					send(newfd, laatste16berichten,strlen((laatste16berichten)+1), 0);
+					send(newfd, laatste16berichten1,strlen((laatste16berichten1)+1), 0);
 
           if (newfd == -1)
 					{
@@ -146,9 +148,11 @@ int main(void){
 						{
 							fdmax = newfd;
             }
+							printf("Nieuwe connecties: \n");
               printf("SERVER melding: Er is een nieuwe connectie van %s op ""socket %d\n",inet_ntop(remoteaddr.ss_family,get_in_addr((struct sockaddr*)&remoteaddr),remoteIP, INET6_ADDRSTRLEN),newfd);
 
               char newConMsg[256];
+							//RUNclient();
             	sprintf(newConMsg,"Nieuwe connectie van ");
               strcat(newConMsg, inet_ntop(remoteaddr.ss_family,get_in_addr((struct sockaddr*)&remoteaddr),remoteIP, INET6_ADDRSTRLEN));
               strcat(newConMsg," on socket ");
@@ -251,7 +255,8 @@ void run( int internet_socket ){
 		else
 		{
 			buffer[Ontvangen_Bytes] = '\0';
-			printf( "Nieuwe Connecties: %s\n", buffer );
+			printf( "%s\n", buffer );
+			sprintf(laatste16berichten1,"\n%s \n\n", buffer);
 		}
 	}
 int setup(){
@@ -334,3 +339,4 @@ void RunBericht( int internet_socket ){
 	      }
 			}
 	}
+
