@@ -322,21 +322,3 @@ void PakBericht( int internet_socket ){
 		run( internet_socket );
 		cleanup( internet_socket );
 	}
-void RunBericht( int internet_socket ){
-		tekst[aantalbytes] = '\0';
-		int TekstLengte;
-		char Tekst[256];
-
-		for (int i = 0, j; tekst[i] != '\0'; ++i)
-		{
-	      while (!(tekst[i] >= 'a' && tekst[i] <= 'z') && !(tekst[i] >= 'A' && tekst[i] <= 'Z') && !(tekst[i] == '\0'))
-		  {
-	         for (j = i; tekst[j] != '\0'; ++j)
-			 {
-	            tekst[j] = tekst[j + 1];
-	         }
-	         tekst[j] = '\0';
-	      }
-			}
-	}
-
